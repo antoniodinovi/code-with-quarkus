@@ -1,0 +1,14 @@
+package it.simutelch.process
+
+import it.simultech.process.Person;
+
+
+rule "Is adult" ruleflow-group "approval"
+
+when
+    $person: Person(age > 18)
+then
+    modify($person) { 
+    	setAdult(true) 
+    };
+end
