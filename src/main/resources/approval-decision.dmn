@@ -5,6 +5,11 @@
       <dmn:typeRef>string</dmn:typeRef>
     </dmn:itemComponent>
   </dmn:itemDefinition>
+  <dmn:itemDefinition id="_7FFE38C0-56FF-494E-89A1-DD4B02A7E91A" name="tDipartimento" isCollection="false">
+    <dmn:itemComponent id="_30143F10-4436-4969-8034-69BDFCDA216C" name="capienza" isCollection="false">
+      <dmn:typeRef>number</dmn:typeRef>
+    </dmn:itemComponent>
+  </dmn:itemDefinition>
   <dmn:inputData id="_30AA483E-B28A-4F52-AAC9-EBBBB10A3071" name="Person">
     <dmn:extensionElements/>
     <dmn:variable id="_7E4EE506-2FD5-4CCB-8118-B32EABB38B85" name="Person" typeRef="tPerson"/>
